@@ -1,0 +1,11 @@
+<h1>Meus posts</h1>
+
+{{#each posts}}
+<h2>Titulo</h2>
+{{title}}
+<h2>Post</h2>
+{{post}}
+<br>
+<a href="/delete/{{id}}">Deletar post</a>
+<hr>
+{{/each}}
